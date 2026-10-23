@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>错题喵 Android 下载</title>
+<style>
+:root{color-scheme:light}
+body{margin:0;background:#FFF7EF;color:#2B2B2B;font:16px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:26px;margin:0 0 6px}
+.sub{color:#8C7B68;font-size:14px;margin:0 0 22px}
+.card{background:#fff;border-radius:18px;padding:20px;box-shadow:0 6px 20px rgba(196,150,96,.12);margin-bottom:16px}
+.btn{display:block;text-align:center;background:#F59A23;color:#fff;text-decoration:none;font-weight:600;
+     border-radius:14px;padding:14px 18px;margin:10px 0}
+.btn.alt{background:#FFF1DC;color:#8A5A12}
+code{background:#F6EFE6;border-radius:6px;padding:1px 6px}
+li{margin:6px 0}
+b{color:#B4690E}
+h2{font-size:18px;margin:18px 0 8px}
+</style></head><body><div class="wrap">
+<h1>错题喵 · Android 版</h1>
+<p class="sub">拍照 → 框选 → 去手写 → 识别诊断 → 错题本 → 举一反三 → 喵喵机打印</p>
+
+<div class="card">
+  <h2 style="margin-top:0">最新版本：v1.52.0</h2>
+  <p>versionCode 107 · 约 61 MB · 2026-10-23 构建</p>
+  <a class="btn" href="https://github.com/jiajieer2021/papertutor-android-dist/releases/download/v1.52.0/cuotimiao-v1.52.0.apk">下载 APK（v1.52.0）</a>
+  <a class="btn alt" href="https://github.com/jiajieer2021/papertutor-android-dist/releases">查看所有历史版本</a>
+  <p style="color:#8C7B68;font-size:14px;margin:8px 0 0">装之前请在手机上允许「安装未知来源应用」。</p>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">安装步骤</h2>
+  <ol>
+    <li>用手机浏览器打开本页，点上面的「下载 APK」；</li>
+    <li>下载完成后点通知或文件管理器里的 <code>cuotimiao-v1.52.0.apk</code>；</li>
+    <li>系统提示"未知来源"时，允许浏览器/文件管理器安装；</li>
+    <li>安装完成后打开「错题喵」，先进「设置 → AI 模型」填 Base URL / API Key。</li>
+  </ol>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">首次使用需要配置</h2>
+  <ul>
+    <li><b>AI</b>：任意 OpenAI 兼容服务（DeepSeek / 通义 / 智谱 / Ollama…），文本与视觉可分别填；</li>
+    <li><b>打印机</b>：喵喵机 P2S / C1，蓝牙连接后打印自检页确认；</li>
+    <li>没有视觉模型时，打开「有本地文字就不传图片」，只用本地 OCR + 文本模型也能识别。</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">其他平台</h2>
+  <ul>
+    <li>iOS（未签名 ipa，需 SideStore/AltStore 自签）：<a href="https://jiajieer2021.github.io/papertutor-ios-dist/">papertutor-ios-dist</a></li>
+    <li>源码：<a href="https://github.com/jiajieer2021/papertutor-android">papertutor-android</a>（私有）</li>
+  </ul>
+</div>
+<p style="color:#A8988A;font-size:13px">构建方式：GitHub Actions（Ubuntu）+ Gradle 8.11.1 + AGP 8.7.3，debug 签名，可直接安装。</p>
+</div></body></html>
